@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campaña EcoVida</title>
+<link rel="stylesheet" href="estilos.css">
+<link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<header>
+<h1>Campaña Escolar: EcoVida</h1>
+<p>Cuidemos el ambiente. Una accion puede generar grandes cambios.</p>
+</header>
+
+<main>
+<section>
+<h2>Consejos para el cuidado del ambiental</h2>
+<article>
+<h3>1-Ahorra el agua</h3>
+<p>Cerrar la canilla mientras te cepillas los dientes o mientras lavas, usarla en el momento indicado</p>
+<img src="imagenes/consejo1.webp" alt="Persona cerrando una canilla para ahorrar agua" width="600" height="400">
+</article>
+<article>
+<h3>2-Separa la basura</h3>
+<p>Tira la basura entre reciclables y no reciclables en los tachos indicados.</p>
+<img src="imagenes/consejo2.webp" alt="Contenedores de reciclaje de colores" width="600" height="400" loading="lazy">
+</article>
+</section>
+</main>
+<script>
+if ("serviceWorker" in navigator) {
+navigator.serviceWorker.register("./sw.js");
+}
+</script>
+</body>
+</html>
